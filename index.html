@@ -7,39 +7,51 @@
     <meta name=" keywords" content="IT Technologies, HTML, CSS, JS, Work.">
     <meta name="description" content="Hi! My names Vladimir. This is my personal site" >
     <title>Hello WRLD!</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <img src="Green.jpg" alt="Ooops..." width="400">
+<div class="container">
+
+    <div class="info">
+
+    <img class="img" src="Green.jpg" alt="Ooops..." width="300">
+    
+<div class="info-2">
 
     <h1>Hi! My name is Vladimir Kliuev.</h1>
 
-    <hr>
+    <div class="contacts">
 
-    <p><strong>I study HTML. </strong> Also <em>i like sport, books</em> <strong><em>and enjoy life!</em></strong> </p>
+        <h3>My contacts</h3>
+        <a href="https://vk.com/3x6gd" target="_blank"><strong>VK |</strong></a>
+        <a href="https://www.youtube.com/channel/UCdHudOxYBlFZm_aq0anjwIA" target="_blank"><strong>YouTube |</strong></a>
+        <a href="https://web.telegram.org/z/#-1850144913" target="_blank"><strong>Telegram </strong></a>
+    </div>
+    </div>
+    </div>
+
+
+
+<div class="paragraf">
+    <p><strong>I study HTML & CSS.<em> Also i like sport, books and</em> <em></em>enjoy my life!</strong></p>
+</div>
+
 
     <hr>
+<div class="card hobby">
 <h3>My Hobby</h3>
-<ul>
-    <li>Sport</li>
-    <li>Books</li>
-    <li>IT</li>
-    <li>YouTube</li>
-    <li>Snow Board</li>
-</ul>
+ <p>Sport, Books, Cars, IT, YouTube, Freelance.</p>
+</div>
 
-    <hr>
+<hr>
 
-    <h3>My contacts</h3>
-    <a href="https://vk.com/3x6gd" target="_blank"><strong>VK |</strong></a>
-    <a href="https://www.youtube.com/channel/UCdHudOxYBlFZm_aq0anjwIA" target="_blank"><strong>YouTube |</strong></a>
-    <a href="https://web.telegram.org/z/#-1850144913" target="_blank"><strong>Telegram </strong></a>
 
-    <hr size="5" noshade>
 
+<div class="card">
     <h3>Work Experience</h3>
 
-<table width="250">
-    <thead> 
+<table  width=100%  class="table">
+    <thead class="thed"> 
     <tr>
         <th>Title</th>
         <th>Position</th>
@@ -73,34 +85,34 @@
     </tr>
     </tbody>
 </table>
+</div>
 
-<hr size="5" noshade>
+<hr>
 
-<h3>Contact With Me</h3>
-    <form>
-        <div>
-         <label for="name">Your Name</label>
+<div class="form-row">
+    <form action="/" class="form">
+        <h2>Contact With Me</h2>
+        <div class="form-group">
+         <label for="name">Your Name:</label>
          <input type="text" id="name" placeholder="Enter your name">
         </div>
 
-        <div>
-         <label for="email">Your Email</label>
+        <div class="form-group">
+         <label for="email">Your Email:</label>
          <input type="email" id="email" placeholder="Enter your email">
         </div>
+    </div>
 
-<div>
-   Your Message:
-</div>
 
-        <div>
-         <label for="message"></label>
+        <div class="form-group">
+         <label for="message">Your Message:</label>
          <textarea name="message" id="message" cols="32" rows="5" placeholder="Enter your message"></textarea>
         </div>
 
-        <button type="submit">Submit!</button>
+        <button class="btn" type="submit">Submit!</button>
 
     </form>
-
+</div>
 </body>
 </html>
 <!-- h1-h6 заголовок
